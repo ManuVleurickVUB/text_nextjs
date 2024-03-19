@@ -1,11 +1,11 @@
-import GraphPlotter from "@/components/GraphPlotter";
+import ImgUpload from "@/components/ImgUpload";
 import NavBar from "@/components/NavBar";
 
 export default function Home() {
   return (
     <>
     <NavBar />
-    <GraphPlotter />
+    <ImgUpload />
     </>
   );
 }
